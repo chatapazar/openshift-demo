@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: backend
-  namespace: demo
+  namespace: demogitops
 spec:
   replicas: 3
   template:
